@@ -7,16 +7,15 @@ export default function DashboardPage() {
     <div>
       <section className='flex flex-col items-center justify-center py-24'>
         <h1 className='text-center text-7xl font-extrabold leading-tight'>
-          {t('An')}{' '}
           <span className='bg-span-bg bg-clip-text text-transparent'>
-            {t('Booster')}
+            {t('findmyclubs')}
           </span>
           <br />
-          {t('to_Your_NextJS_Apps')}
+          {/* {t('connecting students')} */}
         </h1>
         <div className='my-6 px-20 text-center text-2xl text-text-secondary'>
           {t(
-            'An_approachable_performant_and_versatile_boilerplate_for_building_SSR_applications'
+            'connecting students with endless opportunities'
           )}
         </div>
         <div className='mt-4 flex flex-row gap-4'>
@@ -25,42 +24,39 @@ export default function DashboardPage() {
             target='_blank'
           >
             <Button rounded size='large'>
-              {t('Use_Template')}
+              {t('Get Started!')}
             </Button>
           </a>
           <a
             href='https://github.com/yahyaparvar/nextjs-template'
             target='_blank'
           >
-            <Button rounded size='large' variant='secondary'>
-              {t('Learn_More')}
-            </Button>
           </a>
         </div>
       </section>
       <section className='bg-background-secondary py-20 max-lg:py-10'>
         <div className='mx-auto grid max-w-screen-lg grid-cols-3 gap-7 px-8 py-5 max-lg:max-w-fit max-lg:grid-cols-1 max-lg:gap-10'>
           <div className='text-center'>
-            <h2 className='mb-3  text-xl font-semibold'>{t('Approachable')}</h2>
+            <h2 className='mb-3  text-xl font-semibold'>{t('1. Interests')}</h2>
             <p className='text-text-secondary max-lg:max-w-[500px]'>
               {t(
-                'Add_components_without_sending_additional_client_side_JavaScript_Built_on_the_latest_React_features'
+                'Select any interests/hobbies from our list, or search input your own.'
               )}
             </p>
           </div>
           <div className='text-center'>
-            <h2 className='mb-3 text-xl font-semibold'>{t('Versatile')}</h2>
+            <h2 className='mb-3 text-xl font-semibold'>{t('2. Areas of study')}</h2>
             <p className='text-text-secondary max-lg:max-w-[500px]'>
               {t(
-                'Automatic_Image_Font_and_Script_Optimizations_for_improved_UX_and_Core_Web_Vitals'
+                "Choose your faculty, area of studies or any field you're interested in."
               )}
             </p>
           </div>
           <div className='text-center'>
-            <h2 className='mb-3 text-xl font-semibold'>{t('Performant')}</h2>
+            <h2 className='mb-3 text-xl font-semibold'>{t('3. Match')}</h2>
             <p className='text-text-secondary max-lg:max-w-[500px]'>
               {t(
-                'A_rich_incredibly_adoptable_template_that_scales_between_a_small_showcase_website_and_a_full_size_app'
+                "We'll match you with all the clubs and programs we'd think interests you!"
               )}
             </p>
           </div>

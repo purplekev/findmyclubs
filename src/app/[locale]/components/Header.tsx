@@ -13,29 +13,29 @@ export const Header: FC<Props> = ({ locale }) => {
   const t = useTranslations('')
   return (
     <div className='mx-auto flex max-w-screen-2xl flex-row items-center justify-between p-5'>
-      <Link lang={locale} href='/'>
+      <Link href='/'>
         <div className='flex flex-row items-center'>
           <div className='mb-2 h-14 w-14'>
             <LogoIcon />
           </div>
-          <strong className='mx-2 select-none'>Template</strong>
+          <strong className='mx-2 select-none'>findmyclubs</strong>
         </div>
       </Link>
       <div className='flex flex-row items-center gap-3'>
-        <nav className='mr-10 inline-flex gap-5'>
-          <Link lang={locale} href={`/about`}>
+        <nav className='mr-2 inline-flex gap-5'>
+          <Link href={`/about`}>
             {t('About')}
           </Link>
           <a href=''>{t('Support')}</a>
           <a href=''>{t('Other')}</a>
         </nav>
         <ThemeSwitch />
-        <LangSwitcher />
+        {/* <LangSwitcher /> */}
         <a
           href='https://github.com/yahyaparvar/nextjs-template'
           target='_blank'
         >
-          <div className='size-8'>
+          <div className='ml-1 size-8'>
             <GithubIcon />
           </div>
         </a>

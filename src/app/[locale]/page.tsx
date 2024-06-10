@@ -6,14 +6,14 @@ export default function DashboardPage() {
   return (
     <div>
       <section className='flex flex-col items-center justify-center py-24'>
-        <h1 className='text-center text-7xl font-extrabold leading-tight'>
+        <h1 className='text-center text-8xl font-extrabold leading-tight'>
           <span className='bg-span-bg bg-clip-text text-transparent'>
             {t('findmyclubs')}
           </span>
           <br />
           {/* {t('connecting students')} */}
         </h1>
-        <div className='my-6 px-20 text-center text-2xl text-text-secondary'>
+        <div className='my-6 px-20 text-center text-3xl text-text-secondary'>
           {t(
             'connecting students with endless opportunities'
           )}
